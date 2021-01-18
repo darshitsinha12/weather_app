@@ -1,0 +1,37 @@
+name: clima
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  geolocator: ^5.1.5
+  http: ^0.12.0+3
+  flutter_spinkit: ^4.1.1+1
+  flutter_launcher_icons: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - images/wait.jpg
+   - images/download.jpeg
+
+
+  fonts:
+    - family: Monster
+      fonts:
+        - asset: fonts/Montserrat-Light.ttf
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon/icon.png"
